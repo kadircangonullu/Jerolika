@@ -1,0 +1,1 @@
+Direct to install/new for a new installation, or install/upgrade if you are upgrading from a previous version

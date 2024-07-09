@@ -1,0 +1,731 @@
+	* {padding:0; margin:0;}
+html {height:100%; width:100%;}
+img { border:0px;}
+div { padding: 0px; margin: 0 auto;}
+form { display:inline;}
+
+body {  font-size:12px; color:#444444; margin:0 0 100px 0; padding:0 0 0 0; background:#29E5FB url(../v2_img/topNav/background_m.jpg) top center; font-family:"Verdana", Arial, Helvetica, sans-serif; background-attachment: fixed; }
+
+#pageContainer { width:100%; height:100%; margin-top:5px; }
+
+#Header { width:960px; height:150px; background:url(../v2_img/headerBg.png) no-repeat; position: relative; }
+#Header div.Characters { width:979px; height:93px; position:absolute; background:url(../v2_img/topCharacters.png) no-repeat; z-index:40;}
+#Header a.Logo {
+	width: 300px;
+	height: 90px;
+	position: absolute;
+	background: url(../v2_img/topLogo.png) no-repeat;
+	z-index: 300;
+	margin-left: 333px;
+	margin-top: 4px;
+	display: block;
+	background-image: url(../v2_img/topLogo.png);
+}
+#Header div.Counter {
+	width: 303px;
+	height: 81px;
+	position: absolute;
+	background: url(../v2_img/topCounter.png) no-repeat;
+	z-index: 30;
+	margin-left: 658px;
+	margin-top: 9px;
+	left: -39px;
+	top: -14px;
+	background-image: url(../v2_img/topCounter.png);
+}
+#Header div.Navigation { width:960px; height:60px; position:absolute; z-index:20;}
+
+
+#Header div.Navigation div.HemenOyna {
+	background: url(../v2_img/topNav/hemenoyna.png) no-repeat;
+	width: 261px;
+	height: 70px;
+	position: absolute;
+	margin-top: 80px;
+	cursor: pointer;
+	left: -2px;
+	top: -1px;
+}
+#Header div.Navigation div.HemenOyna:hover { background:url(../v2_img/topNav/hemenoyna_up.png) no-repeat; width:261px; height:70px; position:absolute; margin-top:80px;}
+
+#Header div.Navigation div.SanilYukle { background:url(../v2_img/topNav/sanilyukle.png) no-repeat; width:261px; height:70px; position:absolute; margin-top:80px; cursor:pointer;}
+#Header div.Navigation div.SanilYukle:hover { background:url(../v2_img/topNav/sanilyukle_up.png) no-repeat; width:261px; height:70px; position:absolute; margin-top:80px;}
+
+
+#Header div.Navigation div.HemenOynaLogged { background:url(../v2_img/topNav/oyna.png)  no-repeat; width:240px; height:70px; position:absolute; margin-top:80px; margin-left:240px; cursor:pointer;}
+#Header div.Navigation div.HemenOynaLogged:hover { background:url(../v2_img/topNav/oyna_up.png)  no-repeat; width:240px; height:70px; position:absolute; margin-top:80px; margin-left:240px;}
+
+
+#Header div.Navigation div.Guvenlik { background:url(../v2_img/topNav/guvenlik.png)  no-repeat; width:240px; height:70px; position:absolute; margin-top:80px; margin-left:240px; cursor:pointer;}
+#Header div.Navigation div.Guvenlik:hover { background:url(../v2_img/topNav/guvenlik_up.png)  no-repeat; width:240px; height:70px; position:absolute; margin-top:80px; margin-left:240px;}
+
+#Header div.Navigation div.Kurallar {
+	background: url(../v2_img/topNav/kurallar.png) no-repeat;
+	width: 242px;
+	height: 70px;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 480px;
+	cursor: pointer;
+	background-image: url(../v2_img/topNav/kurallar.png);
+}
+#Header div.Navigation div.Kurallar:hover { background:url(../v2_img/topNav/kurallar_up.png) no-repeat; width:242px; height:70px; position:absolute; margin-top:80px; margin-left:480px;}
+
+#Header div.Navigation div.KurallarLogged { background:url(../v2_img/topNav/kurallarguvenlik.png) no-repeat; width:242px; height:70px; position:absolute; margin-top:80px; margin-left:480px; cursor:pointer;}
+#Header div.Navigation div.KurallarLogged:hover { background:url(../v2_img/topNav/kurallarguvenlik_up.png) no-repeat; width:242px; height:70px; position:absolute; margin-top:80px; margin-left:480px;}
+
+#Header div.Navigation div.Destek {
+	background: url(../v2_img/topNav/destek.png) no-repeat;
+	width: 261px;
+	height: 70px;
+	position: absolute;
+	margin-top: 80px;
+	margin-left: 700px;
+	cursor: pointer;
+	left: 11px;
+	top: 4px;
+	background-image: url(../v2_img/topNav/destek.png);
+}
+#Header div.Navigation div.Destek:hover { background:url(../v2_img/topNav/destek_up.png) no-repeat; width:261px; height:70px; position:absolute; margin-top:80px; margin-left:700px;}
+
+
+#Container { width:960px;}
+#Container div.loginArea { width:403px; float:left;position:absolute;}
+#Container div.loginArea div.login {  height:182px; background:url(../v2_img/bgEnterSanalikaBig.png) no-repeat; width:313px; z-index:20; padding-top:93px; padding-left:90px;}
+#Container div.loginArea div.login div.username {}
+#Container div.loginArea div.login div.username .input { background:url(../v2_img/bgBigLoginUsername.png) no-repeat; border:0; width:196px;  height:26px; font-size:18px; padding-top:5px; padding-left:5px;}
+.bigLoginFocus { background:url(../v2_img/bgBigLoginUsernameUp.png) no-repeat; border:0; width:196px;  height:26px; font-size:18px; padding-top:5px; padding-left:5px;}
+#Container div.loginArea div.login div.password { margin-top:6px;}
+#Container div.loginArea div.login div.password .input { background:url(../v2_img/bgBigLoginPassword.png) no-repeat; border:0; width:196px;  height:26px; font-size:18px; padding-top:5px; padding-left:5px;}
+#Container div.loginArea div.login div.password .input:hover { background:url(../v2_img/bgBigLoginPasswordUp.png) no-repeat; border:0; width:196px;  height:26px; font-size:18px; padding-top:5px; padding-left:5px;}
+#Container div.loginArea div.login div.rememberme {margin-top:17px;}
+#Container div.loginArea div.login div.submit {margin-top:17px;}
+#Container div.loginArea div.login div.submit .buton { background:url(../v2_img/bigLoginButon.png) no-repeat; width:201px; height:36px; border:0; cursor:pointer;}
+#Container div.loginArea div.login div.submit .buton:hover { background:url(../v2_img/bigLoginButonUp.png) no-repeat; width:201px; height:36px; border:0;}
+#Container div.loginArea div.login div.submit .buton:focus { background:url(../v2_img/bigLoginButonDown.png) no-repeat; width:201px; height:36px; border:0;}
+#Container div.loginArea div.underLoginPicture { width:398px; height:145px; background:url(../v2_img/underLoginAreaBg.png) no-repeat; z-index:10; padding-top:10px; padding-left:5px; }
+#Container div.loginArea div.freeMember { background:url(../v2_img/freemembership.png) no-repeat; width:403px; height:85px; }
+#Container div.loginArea div.freeMember:hover { background:url(../v2_img/freemembershipUp.png) no-repeat; width:403px; height:85px;}
+
+#Container div.loginAreaPicture { width:545px; height:420px; float:left; background:url(../v2_img/loginPictureArea.png) no-repeat;  padding-top:21px; padding-left:5px; padding-right:5px;  margin-left:405px; position:absolute;}
+
+#Container div.playNow { width:810px;}
+#Container div.playNow div.top { width:810px; background:url(../v2_img/PlayNowTopBg.png) no-repeat; height:16px;}
+#Container div.playNow div.middle { background:#FFFFFF; padding:5px;}
+#Container div.ads { background:url(../v2_img/72090bg.png) no-repeat; width:733px; height:95px; padding-top:21px; padding-left:5px; }
+
+#Container div.left div.logged {}
+#Container div.left div.logged div.top { background:url(../v2_img/bgLoggedTop.png) no-repeat; width:150px; height:26px; padding-left:10px; padding-top:40px; color:#FFFFFF; font-family:System; font-size:15pt;}
+#Container div.left div.logged div.middleWhite { background:url(../v2_img/bgLoggedMiddle.jpg) repeat-y; width:150px; padding-left:5px; padding-top:5px; padding-right:5px;}
+
+#Container div.left div.logged div.middleWhite div.accordionMenu { width:150px; margin-top:3px;}
+
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile { width:150px; margin-top:3px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.title { background:url(../v2_img/menuProfilim.jpg) no-repeat; width:150px; height:22px; cursor:pointer;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.title:hover { background:url(../v2_img/menuProfilimUp.jpg) no-repeat; width:150px; height:22px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.content {}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.content ul { color:#166169; font-size:10px; list-style:url(../v2_img/listStyle.jpg); margin:0 0 10px 0; padding:0 0 0 25px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.content ul li { margin-top:5px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.content ul li a { color:#166169; text-decoration:none; }
+#Container div.left div.logged div.middleWhite div.accordionMenu div.myProfile div.content ul li a:hover { color:#FF6600; text-decoration:none; }
+
+#Container div.left div.logged div.middleWhite div.accordionMenu div.postBox {width:150px; margin-top:3px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.postBox div.title { background:url(../v2_img/menuPostaKutusu.jpg) no-repeat; width:150px; height:22px; cursor:pointer;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.postBox div.title:hover { background:url(../v2_img/menuPostaKutusuUp.jpg) no-repeat; width:150px; height:22px; cursor:pointer;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.postBox div.content {}
+
+#Container div.left div.logged div.middleWhite div.accordionMenu div.logout {width:150px; margin-top:3px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.logout div.title { background:url(../v2_img/menuCikis.jpg) no-repeat; width:150px; height:22px; cursor:pointer;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.logout div.title:hover { background:url(../v2_img/menuCikisUp.jpg) no-repeat; width:150px; height:22px; cursor:pointer;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.logout div.content {}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.logout div.content p { font-size:9px; color:#333333; margin-top:10px;}
+#Container div.left div.logged div.middleWhite div.accordionMenu div.logout div.content p strong { font-weight:normal; color:#999999;}
+
+
+#Container div.left div.logged div.bottom { background:url(../v2_img/bgLoggedBottom.png) no-repeat; width:160px; height:11px;}
+
+
+
+
+#Container div.center div.content { width:495px;}
+
+#Container div.center div.DestekContent { width:495px;}
+#Container div.center div.DestekContent div.top { background:url(../v2_img/destektop.png) no-repeat; width:495px; height:56px;}
+#Container div.center div.DestekContent div.middle { background:#FFFFFF; padding:20px; font-size:11px; line-height:130%;}
+#Container div.center div.DestekContent div.helperWoman { background:url(../v2_img/helperWoman.png) no-repeat; width:95px; height:109px; position:absolute; margin-left:370px; margin-top:-50px; }
+#Container div.center div.DestekContent div.middle .destekBox { background:url(../v2_img/destekBox.jpg) no-repeat; width:445px; height:21px; padding-left:10px; padding-top:10px; border:0}
+#Container div.center div.DestekContent div.middle h2 { color:#0072A5; font-weight:bold; font-size:18px; }
+#Container div.center div.DestekContent div.middle p {  color:#333333; line-height:130%; margin-top:10px; margin-bottom:20px; }
+#Container div.center div.DestekContent div.middle h4 {  font-size:12px; font-weight:bold; margin-bottom:10px; }
+#Container div.center div.DestekContent div.middle p a {  color:#FF0000; text-decoration:underline;}
+#Container div.center div.DestekContent div.middle ul.helplist { list-style:url(../v2_img/HelplistStyle.jpg); padding:0 0 0 20px; }
+#Container div.center div.DestekContent div.middle ul.helplist li  { margin-top:10px; }
+#Container div.center div.DestekContent div.middle ul.helplist li a { color:#333;}
+#Container div.center div.DestekContent div.middle h3 { font-size:18px; color:#FF3300; }
+
+
+
+#Container div.center div.content div.top { width:485px; background:url(../v2_img/contentMiddleTop.png) no-repeat; padding-top:27px; padding-left:10px; height:29px;}
+#Container div.center div.content div.middle { background:#ffffff; padding:10px; line-height:130%; font-size:11px; padding-top:10px;}
+
+.line { border-top:1px solid #86C9EF; }
+
+#Container div.center div.content div.middle div.Mobile { margin-top:30px;}
+#Container div.center div.content div.middle div.Mobile div.MobileCode { float:left; width:130px; background:url(../v2_img/phoneInformations.jpg) no-repeat; height:225px; color:#000; }
+#Container div.center div.content div.middle div.Mobile div.MobileCode div.number { font-size:18px; font-weight:bold; margin-left:42px; margin-top:38px; }
+#Container div.center div.content div.middle div.Mobile div.MobileCode div.bCode{ font-size:18px; width:130px; text-align:center; margin-top:25px; }
+#Container div.center div.content div.middle div.Mobile div.MobileCode div.sCode{ font-size:18px; width:130px; text-align:center; margin-top:5px; }
+
+#Container div.center div.content div.middle div.Mobile div.MobileText { float:left; width:320px; margin-left:20px;}
+#Container div.center div.content div.middle div.Mobile div.MobileText h2 { font-size:18px; color:#333333; line-height:130%;}
+#Container div.center div.content div.middle div.Mobile div.MobileText h2 strong { color:#FF3300;}
+#Container div.center div.content div.middle div.Mobile div.MobileText p { margin-top:15px; font-size:10px; line-height:130%;}
+
+
+#Container div.center div.content div.middle div.Havale div.MobileText { }
+#Container div.center div.content div.middle div.Havale div.MobileText h2 { font-size:18px; color:#333333; line-height:130%;}
+#Container div.center div.content div.middle div.Havale div.MobileText h2 strong { color:#FF3300;}
+#Container div.center div.content div.middle div.Havale div.MobileText p { margin-top:15px; font-size:10px; line-height:130%;}
+
+#Container div.center div.content div.middle div.Havale div.HavaleKagidi {background:url(../v2_img/havalekagidi.jpg) no-repeat; width:462px; height:118px; margin-top:30px;}
+#Container div.center div.content div.middle div.Havale div.HavaleKagidi div.tutar { padding-top:30px; margin-left:85px; font-size:14px; font-weight:bold; color:#000000;}
+#Container div.center div.content div.middle div.Havale div.HavaleKagidi div.aciklama { padding-top:10px; margin-left:85px; font-size:14px; color:#FFFFFF; font-weight:bold;}
+
+#Container div.center div.content div.middle h2 { color:#324C19; font-size:18px; margin-bottom:5px; font-weight:normal; }
+
+
+#Container div.center div.content div.middle div.Banks {}
+#Container div.center div.content div.middle div.Banks div.Garanti { float:left; background:url(../v2_img/bank_garanti.jpg) no-repeat; width:116px; height:46px; cursor:pointer;}
+#Container div.center div.content div.middle div.Banks div.Akbank { float:left; background:url(../v2_img/bank_akbank.jpg) no-repeat; width:116px; height:46px; margin-left:15px; cursor:pointer;}
+
+#Container div.center div.content div.middle div.Banks div.Garanti:hover { float:left; background:url(../v2_img/bank_garantiup.jpg) no-repeat; width:116px; height:46px;}
+#Container div.center div.content div.middle div.Banks div.Akbank:hover { float:left; background:url(../v2_img/bank_akbankup.jpg) no-repeat; width:116px; height:46px; margin-left:15px;}
+
+#Container div.center div.content div.middle div.Banks div.Garantiselected { float:left; background:url(../v2_img/bank_garantiup.jpg) no-repeat; width:116px; height:46px;}
+#Container div.center div.content div.middle div.Banks div.Akbankselected { float:left; background:url(../v2_img/bank_akbankup.jpg) no-repeat; width:116px; height:46px; margin-left:15px;}
+
+#Container div.center div.content div.middle div.BankInformation { margin-top:20px;}
+#Container div.center div.content div.middle div.BankInformation div.text { float:left; width:126px;}
+#Container div.center div.content div.middle div.BankInformation div.bankInformations { float:left; width:290px; margin-left:50px; }
+#Container div.center div.content div.middle div.BankInformation div.bankInformations div { float:left; width:145px; height:40px; }
+#Container div.center div.content div.middle div.BankInformation div.bankInformations div strong { font-weight:bold; color:#FF0000; font-size:14px;}
+
+
+
+#Container div.center div.content div.middlex { background:#ffffff;}
+
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri { width:495px;}
+#Container div.center div.content div.buttons { width:485px; padding-left:10px; padding-top:10px; }
+#Container div.center div.content div.buttons div.leftx { float:left; width:200px;}
+#Container div.center div.content div.buttons div.rightx { float:right; text-align:right; padding-right:20px;}
+
+.odemeplanitablo {border-bottom:1px solid #86C9EF;  }
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri .cizgix {border-bottom:1px solid #86C9EF; height:95px  }
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div { padding-top:5px; padding-bottom:2px; }
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri .cizgi {border-bottom:1px solid #86C9EF;  }
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri .cizgiadres {border-bottom:1px solid #86C9EF; height:85px;  }
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.text { float:left; width:181px; padding-top:18px; padding-left:10px; }
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox { float:left; font-size:11px; height:31px; width:300px;}
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox  div.bilgiler { float:left; width:160px; font-size:10px;}
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox  h2 { font-size:12px; color:#FF3300; }
+
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox p { margin-bottom:10px; }
+
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox  div.bilgiler div.sol { float:left; width:80px;}
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox  div.bilgiler div.sol { float:left; }
+
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox div.cardpic { float:left; text-align:center; width:120px; }
+
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox .texter{ float:left; font-size:11px; height:21px; padding-top:10px;}
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox .gbform { width:292px; height:31px; background:url(../v2_img/gbformtext.jpg) no-repeat; border:0;}
+
+#Container div.center div.content div.middlex div.GeriBildirimBilgileri div div.inputbox .adres { width:292px; height:71px; background:url(../v2_img/adresbg.jpg) no-repeat; border:0;}
+
+
+#Container div.center div.content div.middlex div.MobileOdeme { width:495px; padding-top:50px; padding-bottom:30px; height:152px;}
+#Container div.center div.content div.middlex div.MobileOdeme div { width:116px; height:116px; margin-left:30px; float:left;}
+#Container div.center div.content div.middlex div.MobileOdeme div.turkcell { background:url(../v2_img/turkcell.jpg) no-repeat;  cursor:pointer;}
+#Container div.center div.content div.middlex div.MobileOdeme div.avea { background:url(../v2_img/avea.jpg) no-repeat;  cursor:pointer;}
+#Container div.center div.content div.middlex div.MobileOdeme div.vodafone { background:url(../v2_img/vodafone.jpg) no-repeat;  cursor:pointer;}
+
+#Container div.center div.content div.middlex div.CellPhoneInformation { font-size:11px; line-height:130%;}
+#Container div.center div.content div.middlex div.CellPhoneInformation div.Information { padding:15px; }  
+#Container div.center div.content div.middlex div.CellPhoneInformation div.Information h2 { font-size:18px; color:#ff6600;}
+#Container div.center div.content div.middlex div.Son4Hane { width:495px; border-bottom:1px solid #86C9EF;  border-top:1px solid #86C9EF; padding-top:15px; padding-bottom:15px; }
+
+#Container div.center div.content div.middlex div.Son4Hane div.txt { float:left; width:150px;  padding-top:10px; padding-left:10px;}
+#Container div.center div.content div.middlex div.Son4Hane div.formtxt { float:left; width:100px; padding-top:10px; margin-left:20px;} 
+#Container div.center div.content div.middlex div.Son4Hane div.formphone { float:left;}
+#Container div.center div.content div.middlex div.Son4Hane div.formphone .textbox { background:url(../v2_img/son4bg.gif) no-repeat; width:72px; height:26px; padding-left:10px; padding-top:5px; border:0; font-size:18px; font-weight:bold;}
+
+#Container div.center div.content div.middlex div.MobileOdeme div.turkcell:hover { background:url(../v2_img/turkcellup.jpg) no-repeat; }
+#Container div.center div.content div.middlex div.MobileOdeme div.avea:hover { background:url(../v2_img/aveaup.jpg) no-repeat; }
+#Container div.center div.content div.middlex div.MobileOdeme div.vodafone:hover { background:url(../v2_img/vodafoneup.jpg) no-repeat; }
+.ufak { font-size:10px; color:#999999; }
+#Container div.center div.content div.middlex div.sanilCards { width:495px; margin-top:30px; margin-bottom:50px;}
+#Container div.center div.content div.middlex div.sanilCards div.cards { float:left; margin-left:25px !important; margin-left:20px; font-size:10px; letter-spacing:-1px;}
+#Container div.center div.content div.middlex div.sanilCards div.cards strong { color:#0072A5; }
+#Container div.center div.content div.middlex div.sanilCards div.cards div.miktar { float:left; width:60px; margin-left:2px !important; margin-left:2px;}
+#Container div.center div.content div.middlex div.sanilCards div.cards div.fiyat { float:left; background:url(../v2_img/turuncuok.jpg) no-repeat ; padding-left:5px; width:50px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc1000 { background:url(../v2_img/sanilCards/1000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc3000 { background:url(../v2_img/sanilCards/3000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc5000 { background:url(../v2_img/sanilCards/5000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc10000 {background:url(../v2_img/sanilCards/10000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc15000 {background:url(../v2_img/sanilCards/15000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc20000 {background:url(../v2_img/sanilCards/20000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc30000{background:url(../v2_img/sanilCards/30000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc50000{background:url(../v2_img/sanilCards/50000.png) no-repeat; width:126px; height:50px; cursor:pointer; padding-top:76px;}
+
+#Container div.center div.content div.middlex div.sanilCards div.sc1000:hover { background:url(../v2_img/sanilCards/1000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc3000:hover { background:url(../v2_img/sanilCards/3000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc5000:hover { background:url(../v2_img/sanilCards/5000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc10000:hover {background:url(../v2_img/sanilCards/10000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc15000:hover {background:url(../v2_img/sanilCards/15000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc20000:hover {background:url(../v2_img/sanilCards/20000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc30000:hover {background:url(../v2_img/sanilCards/30000up.png) no-repeat; height:50px; padding-top:76px;}
+#Container div.center div.content div.middlex div.sanilCards div.sc50000:hover {background:url(../v2_img/sanilCards/50000up.png) no-repeat; height:50px; padding-top:76px;}
+
+
+#Container div.center div.content div.middlex div.OdemeSecenekleri {}
+
+
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice { background:url(../v2_img/paychoisebg.jpg) no-repeat; width:485px; height:80px; padding-left:10px; padding-top:10px; border-top:1px solid #86C9EF;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice:hover { background:url(../v2_img/paychoisebgup.jpg) no-repeat; width:485px; height:80px; padding-left:10px; padding-top:10px; border-top:1px solid #86C9EF;}
+
+
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex { background:url(../v2_img/paychoisebgindirim.jpg) no-repeat; width:485px; height:80px; padding-left:10px; padding-top:10px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex:hover { background:url(../v2_img/paychoisebgupindirim.jpg) no-repeat; width:485px; height:80px; padding-left:10px; padding-top:10px;}
+
+
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice div.image { float:left; width:100px; text-align:center;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice div.description {float:left; width:250px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice div.description h2 { color:#0072A5; font-size:18px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice div.description p{ font-size:11px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choice div.Check {float:left;}
+
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex div.image { float:left; width:100px; text-align:center;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex div.description {float:left; width:250px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex div.description h2 { color:#0072A5; font-size:18px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex div.description p{ font-size:11px;}
+#Container div.center div.content div.middlex div.OdemeSecenekleri div.Choicex div.Check {float:left;}
+
+#Container div.center div.Birlestirici { width:495px; height:10px; background:url(../v2_img/BirlestiriciContent.png) no-repeat;}
+
+#Container div.right div.Balance {  background: url(../v2_img/Balance.png) no-repeat; width:320px; height:126px;  }
+
+#Container div.right div.PopulerSorular { width:320px;}
+#Container div.right div.PopulerSorular div.top { background:url(../v2_img/populersorularTop.png) no-repeat; width:320px; height:56px;}
+#Container div.right div.PopulerSorular div.middle { background:url(../v2_img/populersorularMiddle.jpg) repeat-y; width:280px; padding:20px; font-size:11px;}
+#Container div.right div.SagBirlestirici { background:url(../v2_img/SagBirlestirici.png) no-repeat; width:320px; height:15px;}
+#Container div.right div.helpCategories { width:320px; font-size:11px;}
+#Container div.right div.helpCategories div.top { width:320px; background:url(../v2_img/destekCatTop.png) no-repeat; height:40px;}
+#Container div.right div.helpCategories div.middle { background:url(../v2_img/populersorularMiddle.jpg) repeat-y; width:280px; padding:20px;}
+#Container div.right div.helpCategories div.bottom { background:url(../v2_img/destekCatBottom.png) no-repeat; height:10px; width:320px;}
+
+#Container div.right div.Categories { margin-left:15px; }
+#Container div.right div.Categories div a {color:#0072A5; font-size:10px; text-decoration:none;}
+#Container div.right div.Categories div a:hover {color:#0072A5; font-size:10px; text-decoration:underline;}
+#Container div.right div.Genel { background:url(../v2_img/categories/categories_r1_c1.jpg) no-repeat; width:45px; height:10px; float:left; text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px;}
+#Container div.right div.Sanil { background:url(../v2_img/categories/categories_r1_c2.jpg) no-repeat; width:65px; height:10px; float:left; text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px;}
+#Container div.right div.Urunler { background:url(../v2_img/categories/categories_r1_c3.jpg) no-repeat; width:66px; height:10px; float:left; text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px;}
+#Container div.right div.Uyelik { background:url(../v2_img/categories/categories_r1_c4.jpg) no-repeat; width:69px; height:10px; float:left; text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px;}
+#Container div.right div.Oyunlar { background:url(../v2_img/categories/categories_r2_c1.jpg) no-repeat; width:45px; height:10px; float:left;text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px; margin-top:15px;}
+#Container div.right div.Guvenlik { background:url(../v2_img/categories/categories_r2_c2.jpg) no-repeat; width:65px; height:10px; float:left;text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px; margin-top:15px;}
+#Container div.right div.Teknik { background:url(../v2_img/categories/categories_r2_c3.jpg) no-repeat; width:66px; height:10px; float:left;text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px; margin-top:15px;}
+#Container div.right div.Ebevenler { background:url(../v2_img/categories/categories_r2_c4.jpg) no-repeat; width:69px; height:10px; float:left; text-align:center; color:#0072A5; font-size:10px; font-weight:bold; padding-top:95px; margin-top:15px;}
+
+
+#Container div.right div.helpCategories  h2 { color:#0072A5; font-weight:bold; font-size:18px; }
+#Container div.right div.helpCategories  p {  color:#333333; line-height:130%; margin-top:5px; margin-bottom:10px; }
+#Container div.right div.helpCategories  h4 {  font-size:12px; font-weight:bold; margin-bottom:10px; }
+#Container div.right div.helpCategories  p a {  color:#FF0000; text-decoration:underline;}
+#Container div.right ul.helplist { list-style:url(../v2_img/HelplistStyle.jpg); padding:0 0 0 20px; }
+#Container div.right ul.helplist li  { margin-top:10px; }
+#Container div.right ul.helplist li a { color:#333;}
+
+#Container div.center ul.helplist2 { list-style:url(../v2_img/HelplistStyle.jpg); padding:0 0 0 20px; }
+#Container div.center ul.helplist2 li  { margin-top:10px; }
+#Container div.center ul.helplist2 li a { color:#333; text-decoration:none;}
+
+#Container div.right div.HelpDesk { width:320px;}
+#Container div.right div.HelpDesk div.top { width:300px; background:url(../v2_img/HelpDeskBg.png) no-repeat; height:30px; padding-left:20px; padding-top:20px;}
+#Container div.right div.HelpDesk div.middle { background:url(../v2_img/HelpDeskMiddleBg.jpg) repeat-y; width:290px; padding-left:20px; padding-right:10px; padding-top:10px; font-size:10px; padding-bottom:10px;}
+#Container div.right div.HelpDesk div.middle div { margin-bottom:20px;} 
+#Container div.right div.HelpDesk div.middle div h2 { font-size:12px; color:#AC2020; } 
+#Container div.center h5 { font-size:11px; color:#0072A5; } 
+#Container div.right div.HelpDesk div.middle div p { margin-top:10px; margin-bottom:10px; line-height:130%; }
+#Container div.right div.HelpDesk div.middle div p .arama { background:url(../v2_img/soruyazbg.jpg) no-repeat; width:258px; padding-left:10px; height:23px; padding-top:8px; border:0; font-size:12px;  }
+#Container div.right div.HelpDesk div.middle div ul { list-style:url(../v2_img/HelplistStyle.jpg); padding:0 0 0 20px; margin:0 0 20px 0; }
+#Container div.right div.HelpDesk div.middle div ul li { font-size:12px; margin-top:5px; }
+#Container div.right div.HelpDesk div.middle div ul li a { text-decoration:underline; color:#333333;  }
+
+
+#Container div.left { width:160px; position:absolute;}
+
+#Container div.left div.Uyelik { width:160px; position:absolute; z-index:50; background:url(../v2_img/ucretsizUyelik.png) no-repeat; height:94px; cursor:pointer;}
+#Container div.left div.Uyelik:hover { width:160px; position:absolute; z-index:50; background:url(../v2_img/ucretsizUyelikup.png) no-repeat; height:94px;}
+#Container div.left div.Uyelik:focus { width:160px; position:absolute; z-index:50; background:url(../v2_img/ucretsizUyelikupf.png) no-repeat; height:94px;}
+
+#Container div.left div.KayitOl { width:160px; position:absolute; z-index:50; background:url(../v2_img/KayitOl.png) no-repeat; height:94px;}
+
+#Container div.left div.UyeGirisi { width:160px; position:absolute; z-index:40; margin-top:89px; }
+#Container div.left div.UyeGirisi div.top { background:url(../v2_img/SanalikaLoginTop.png) no-repeat; height:56px; width:160px;}
+#Container div.left div.UyeGirisi div.middle { background:url(../v2_img/SanalikaLoginBg.jpg) repeat-y; widows:160px; height:92px; }
+#Container div.left div.UyeGirisi div.middle div.mainLogin { width:145px; padding-top:5px;}
+#Container div.left div.UyeGirisi div.middle div.mainLogin  div.username { width:125px; height:20px;  padding-right:15px; }
+#Container div.left div.UyeGirisi div.middle div.mainLogin  div.username .field { border:0; width:125px; height:20px; background:url(../v2_img/bgUsername.png) no-repeat; color:#2C6C72; font-size:10px; padding-left:5px; padding-top:3px;}
+.indexLoginfocus { border:0; width:120px; height:17px; background:url(../v2_img/bgUsernameUp.png) no-repeat;padding-left:5px; padding-top:3px; font-size:10px;}
+
+#Container div.left div.UyeGirisi div.middle div.mainLogin  div.password { width:125px; height:20px; padding-top:3px;  padding-right:15px; }
+#Container div.left div.UyeGirisi div.middle div.mainLogin  div.password .field { border:0; width:120px; height:17px; background:url(../v2_img/bgPassword.png) no-repeat; padding-left:5px; padding-top:3px;font-size:10px;}
+
+#Container div.left div.UyeGirisi div.middle div.mainLogin div.rememberme { padding-top:5px; padding-bottom:5px; } 
+
+#Container div.left div.UyeGirisi div.middle div.mainLogin .submit { padding-left:10px !important; padding-left:0; width:135px !important; width:140px; height:26px; }	
+#Container div.left div.UyeGirisi div.middle div.mainLogin .buton { background: url(../v2_img/btnGirisYap.png) no-repeat; border:0;width:131px; height:26px; }
+#Container div.left div.UyeGirisi div.middle div.mainLogin .buton:hover { background: url(../v2_img/btnGirisYapUp.png) no-repeat; border:0;width:131px; height:26px; }
+
+#Container div.left div.UyeGirisi div.bottom { background:url(../v2_img/SanalikaLoginBottom.png) no-repeat; width:160px; height:16px; }
+
+#Container div.left div.SonUrunler { width:160px; position:absolute; z-index:30; margin-top:247px !important; margin-top:262px; text-align:left; }
+#Container div.left div.SonUrunler div.top { background:url(../v2_img/SonUrunlerTop.png) no-repeat; width:160px; height:120px; }
+#Container div.left div.SonUrunler div.middle { background:#FFFFFF; background:url(../v2_img/SonUrunlerMiddle.jpg) repeat-y; width:160px; }
+#Container div.left div.SonUrunler div.middle div.lastestProduct { width:150px; border-bottom:1px solid #86C9EF; height:25px; padding-top:10px; padding-bottom:10px !important; padding-bottom:0;}
+#Container div.left div.SonUrunler div.middle div.lastestProduct div.productPicture { float:left; width:30px;}
+#Container div.left div.SonUrunler div.middle div.lastestProduct div.productName {float:left; width:50px; margin-left:5px; font-size:9px; color:#666666;}
+#Container div.left div.SonUrunler div.middle div.lastestProduct div.productPrice{ float:left; width:30px; margin-left:0px; font-size:11px; color:#8C3B03; background:url(../v2_img/sanil.jpg) no-repeat; text-align:left; padding-left:20px; font-weight:bold; height:18px;}
+
+#Container div.left div.SonUrunler div.bottom { background:url(../v2_img/SonUrunlerBottom.png) no-repeat; width:160px; height:18px; padding-top:13px; text-align:center; }
+#Container div.left div.SonUrunler div.bottom div.leftd { float:left; width:10px; padding-top:3px;}
+#Container div.left div.SonUrunler div.bottom div.centerd { float:left; width:120px; text-align:center;}
+#Container div.left div.SonUrunler div.bottom div.rightd { float:left; width:10px; padding-top:3px;} 
+
+
+
+#Container div.left div.Firsatlar { width:160px; position:absolute; z-index:30; margin-top:247px !important; margin-top:262px; text-align:left; }
+#Container div.left div.Firsatlar div.top { background:url(../v2_img/firsatlarTop.png) no-repeat; width:160px; height:50px; }
+#Container div.left div.Firsatlar div.middle { background:#FFFFFF; background:url(../v2_img/firsatlarMiddle.png) repeat-y; width:155px; padding-left:5px; padding-top:5px; }
+
+#Container div.left div.Firsatlar div.bottom { background:url(../v2_img/firsatlarBottom.png) no-repeat; width:160px; height:18px; padding-top:13px; text-align:center; }
+#Container div.left div.Firsatlar div.bottom div.leftd { float:left; width:10px; padding-top:3px;}
+#Container div.left div.Firsatlar div.bottom div.centerd { float:left; width:120px; text-align:center;}
+#Container div.left div.Firsatlar div.bottom div.rightd { float:left; width:10px; padding-top:3px;} 
+
+
+
+#Container div.left div.SonUrunlerLogged { width:160px; text-align:left; }
+#Container div.left div.SonUrunlerLogged div.top {}
+#Container div.left div.SonUrunlerLogged div.middle { background:#FFFFFF; background:url(../v2_img/SonUrunlerMiddle.jpg) repeat-y; width:160px; }
+#Container div.left div.SonUrunlerLogged div.middle div.lastestProduct { width:150px; border-bottom:1px solid #86C9EF; height:25px; padding-top:10px; padding-bottom:10px !important; padding-bottom:0;}
+#Container div.left div.SonUrunlerLogged div.middle div.lastestProduct div.productPicture { float:left; width:30px;}
+#Container div.left div.SonUrunlerLogged div.middle div.lastestProduct div.productName {float:left; width:50px; margin-left:5px; font-size:9px; color:#666666;}
+#Container div.left div.SonUrunlerLogged div.middle div.lastestProduct div.productPrice{ float:left; width:30px; margin-left:0px; font-size:11px; color:#8C3B03; background:url(../v2_img/sanil.jpg) no-repeat; text-align:left; padding-left:20px; font-weight:bold; height:18px;}
+
+#Container div.left div.SonUrunlerLogged div.bottom { background:url(../v2_img/SonUrunlerBottom.png) no-repeat; width:160px; height:18px; padding-top:13px; text-align:center; }
+#Container div.left div.SonUrunlerLogged div.bottom div.leftd { float:left; width:10px; padding-top:3px;}
+#Container div.left div.SonUrunlerLogged div.bottom div.centerd { float:left; width:120px; text-align:center;}
+#Container div.left div.SonUrunlerLogged div.bottom div.rightd { float:left; width:10px; padding-top:3px;} 
+
+
+
+#Container div.left div.eventArchive { width:160px; text-align:left; }
+#Container div.left div.eventArchive div.top {}
+#Container div.left div.eventArchive div.middle { background:#FFFFFF; background:url(../v2_img/SonUrunlerMiddle.jpg) repeat-y; width:155px; padding-left:5px; }
+#Container div.left div.eventArchive div.middle div.lastestProduct { width:150px; border-bottom:1px solid #86C9EF; height:25px; padding-top:10px; padding-bottom:10px !important; padding-bottom:0;}
+#Container div.left div.eventArchive div.middle div.lastestProduct div.productPicture { float:left; width:30px;}
+#Container div.left div.eventArchive div.middle div.lastestProduct div.productName {float:left; width:50px; margin-left:5px; font-size:9px; color:#666666;}
+#Container div.left div.eventArchive div.middle div.lastestProduct div.productPrice{ float:left; width:30px; margin-left:0px; font-size:11px; color:#8C3B03; background:url(../v2_img/sanil.jpg) no-repeat; text-align:left; padding-left:20px; font-weight:bold; height:18px;}
+
+#Container div.left div.eventArchive div.bottom { background:url(../v2_img/SonUrunlerBottom.png) no-repeat; width:160px; height:18px; padding-top:13px; text-align:center; }
+#Container div.left div.eventArchive div.bottom div.leftd { float:left; width:10px; padding-top:3px;}
+#Container div.left div.eventArchive div.bottom div.centerd { float:left; width:120px; text-align:center;}
+#Container div.left div.eventArchive div.bottom div.rightd { float:left; width:10px; padding-top:3px;} 
+
+#Container div.left div.eventArchive div.middle h2 { color:#0072A5; font-size:12px; font-weight:bold;  padding-top:5px; margin-bottom:5px;}
+#Container div.left div.eventArchive div.middle h2 a { color:#0072A5; font-size:12px; font-weight:bold; }
+#Container div.left div.eventArchive div.middle ul { margin:0px 0 0 0; padding:0 0 0 20px; list-style: url(../v2_img/blueListStyle.png); }
+#Container div.left div.eventArchive div.middle ul li { font-size:10px; margin-top:2px;}	
+
+
+
+#Container div.center { width:495px; position:absolute; margin-left:150px; z-index:100;}
+#Container div.contentContainer { width:810px; position:absolute; margin-left:150px; z-index:100; }
+#Container div.contentContainer div.top { background:url(../v2_img/containerTop.png) no-repeat; height:26px; width:800px; padding-left:10px; padding-top:28px;}
+#Container div.contentContainer div.middle { background:#FFFFFF;}
+
+#Container div.contentContainer div.middle div.lined { border-bottom:1px solid #86C9EF; padding:10px;}
+#Container div.contentContainer div.middle div.titleText  { float:left; width:200px; padding-top:10px;}
+#Container div.contentContainer div.middle div.formElemtents {}
+.textboxs { background:url(../v2_img/contentTextBox.jpg) no-repeat; width:292px; height:31px; border:0;}
+
+#Container div.contentContainer div.middle div.unlined { padding:10px;}
+
+
+#Container div.SanalikadanHaberler { width:495px;}
+#Container div.SanalikadanHaberler div.top { background:url(../v2_img/SanalikadanHaberlerTop.png) no-repeat; width:495px; height:56px;}
+#Container div.SanalikadanHaberler div.middle {}
+
+#Container div.SanalikaAktiviteler { width:495px; }
+#Container div.SanalikaAktiviteler div.top { background:url(../v2_img/GreenBox.png) no-repeat; width:475px; height:30px; padding-left:10px; padding-top:15px; padding-right:20px;}
+#Container div.SanalikaAktiviteler div.top div.title { float:left; width:150px;}
+#Container div.SanalikaAktiviteler div.top div.box { float:right; width:300px; text-align:right;}
+
+#Container div.SanalikaAktiviteler div.middle { background:#FFFFFF;}
+
+#Container div.SanalikaAktiviteler div.middle div.Event { width:475px; padding-left:10px; padding-right:10px; padding-top:10px; padding-bottom:10px; border-bottom:1px solid #86C9EF;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.leftEventDate { width:40px; float:left;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.leftEventDate div.eventDate {width:40px; text-align:center; background:url(../v2_img/bgCalendar.jpg) no-repeat; height:42px;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.leftEventDate div.eventDate div.Month { color:#FFFFFF; font-weight:bold; font-size:10px; padding-top:2px;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.leftEventDate div.eventDate div.Day { color:#000000; font-weight:bold; font-size:20px; padding-top:2px;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.leftEventDate div.eventDate div.Time { font-weight:bold; color:#000000; font-size:10px; padding-top:3px;}
+
+#Container div.SanalikaAktiviteler div.middle div.Event div.centerEventInformation { float:left; width:320px; margin-left:10px;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.centerEventInformation h2 { color:#0072A5;  font-size:12px; font-weight:bold;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.centerEventInformation span.shortInfo { font-size:9px;  color:#999999;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.centerEventInformation p { font-size:10px; color:#333333;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.centerEventInformation a { color:#FF3300; text-decoration:underline;}
+#Container div.SanalikaAktiviteler div.middle div.Event div.centerEventInformation a:hover {color:#FF3300; text-decoration:underline;}
+
+#Container div.SanalikaAktiviteler div.middle div.Event div.rightEventImage { float:left; width:75px; margin-left:10px;}
+
+#Container div.SanalikaAktiviteler div.middle div.icerikx { padding-left:10px;  padding-bottom:10px; }
+#Container div.SanalikaAktiviteler div.middle div.icerikx h5 { font-size:18px; color:#FF0000; padding-top:10px; padding-bottom:10px; }
+#Container div.SanalikaAktiviteler div.middle div.icerikx h2 { font-size:18px; color:#0072A5; padding-top:10px; padding-bottom:10px; text-decoration:underline;  font-weight:normal;} 
+#Container div.SanalikaAktiviteler div.middle div.icerikx p { line-height:130%; font-size:11px; padding-bottom:10px; }
+#Container div.SanalikaAktiviteler div.middle div.icerikx ul.eventMenu { padding:0 0 0 0; margin:0 0 0 0; list-style:none; }
+#Container div.SanalikaAktiviteler div.middle div.icerikx ul.eventMenu li {float:left;font-size:10px; }
+#Container div.SanalikaAktiviteler div.middle div.icerikx ul.eventMenu .li2 {float:left; padding-left:15px; }
+
+#Container div.SanalikaAktiviteler div.middle div.icerikx .headline {  font-size:14px; font-weight:bold;  }
+#Container div.SanalikaAktiviteler div.middle div.icerikx .eventcontent {  }
+#Container div.SanalikaAktiviteler div.middle div.icerikx a { color:#FF0000; text-decoration:underline; }
+
+
+#Container div.SanalikaAktiviteler div.middle div.otherEvents { border-bottom:1px solid #0072A5;  }
+#Container div.SanalikaAktiviteler div.middle div.otherEvents h5 { font-size:18px; color:#FF0000; padding-top:10px; padding-bottom:10px; }
+#Container div.SanalikaAktiviteler div.middle div.otherEvents h2 { font-size:14px; color:#0072A5; padding-top:10px; padding-bottom:10px; text-decoration:underline;  font-weight:normal;} 
+#Container div.SanalikaAktiviteler div.middle div.otherEvents p { line-height:130%; font-size:11px; padding-bottom:10px; }
+#Container div.SanalikaAktiviteler div.middle div.otherEvents ul.eventMenu { padding:0 0 0 0; margin:0 0 0 0; list-style:none; }
+#Container div.SanalikaAktiviteler div.middle div.otherEvents ul.eventMenu li {float:left;font-size:10px; }
+#Container div.SanalikaAktiviteler div.middle div.otherEvents ul.eventMenu .li2 {float:left; padding-left:15px; }
+
+
+
+div.Takvim { width:495px; height:305px; background:#fff;}
+div.Takvim div { width:70px; height:48px; border-bottom:1px solid #ccc; float:left; text-align:center; padding-top:12px;}
+div.Takvim .sag { border-right:1px solid #ccc; }
+div.Takvim .t1 { width:69px; height:48px; border-bottom:1px solid #ccc; float:left; text-align:center;  padding-top:12px;}
+
+
+
+#Container div.SanalikaAktiviteler div.bottom { background:url(../v2_img/GreenBox_bottom.jpg) no-repeat; width:495px; height:15px; padding-top:5px; padding-left:5px; padding-right:5px;}
+#Container div.SanalikaAktiviteler div.bottom div.Prev { width:40px; float:left;}
+#Container div.SanalikaAktiviteler div.bottom div.EventPager { width:395px; float:left; text-align:center; color:#FFFFFF; font-size:11px; }
+#Container div.SanalikaAktiviteler div.bottom div.Next { widows:50px; float:left; }
+
+.AktivitelerMenu { background:url(../v2_img/aktiviteler.png) no-repeat; width:810px; height:28px; padding-top:28px; }
+.AktivitelerMenu ul { margin:0 0 0 0; padding:0 0 0 0; list-style:none; }
+.AktivitelerMenu ul li { float:left; margin-left:10px;}
+.AktivitelerMenu ul li.diger  { float:left; margin-left:25px;} 
+.AktivitelerMenu ul li.diger2  { float:left; margin-left:20px;} 
+.AktivitelerMenu ul li .justWhite { border:0; font-size:14px; color:#000000; height:25px; font-weight:bold; width:170px; }
+
+#Container div.right {width:320px; position:absolute; margin-left:640px;}
+#Container div.right div.Kampanyalar { width:320px;}
+#Container div.right div.Kampanyalar div.top { background:url(../v2_img/LightGreenBoxTop.png) no-repeat; width:290px; height:30px; padding-left:20px; padding-top:26px; padding-right:10px;}
+#Container div.right div.Kampanyalar div.top div.title { float:left; width:150px;  }
+#Container div.right div.Kampanyalar div.top div.CampainPager { float:right; width:140px; text-align:right; } 
+#Container div.right div.Kampanyalar div.middle { background:url(../v2_img/LightGreenBoxMiddle.jpg) repeat-y; padding-left:15px; width:305px; padding-top:5px; padding-bottom:5px; }
+
+#Container div.right div.Kampanyalar2 { width:320px; margin-top:56px;}
+#Container div.right div.Kampanyalar2 div.top { background:url(../v2_img/LightGreenBoxTop2.png) no-repeat; width:290px; height:29px; padding-left:20px; padding-top:16px; padding-right:10px;}
+#Container div.right div.Kampanyalar2 div.top div.title { float:left; width:150px;  }
+#Container div.right div.Kampanyalar2 div.top div.CampainPager { float:right; width:140px; text-align:right; } 
+#Container div.right div.Kampanyalar2 div.middle { background:url(../v2_img/LightGreenBoxMiddle.jpg) repeat-y; padding-left:15px; width:305px; padding-top:5px; padding-bottom:5px; }
+
+#Container div.right div.Birlestirici { background:url(../v2_img/Birlestirici.png) no-repeat; width:320px; height:16px;}
+
+#Container div.right div.WhiteBox { width:320px; }
+#Container div.right div.WhiteBox div.middle { width:320px; padding-left:15px; padding-top:5px; padding-bottom:5px; background:url(../v2_img/LightGreenBoxMiddle.jpg) repeat-y; }
+
+#Container div.right div.White2RedConnector { background:url(../v2_img/White2RedConnector.png) no-repeat; width:320px; height:16px; }
+#Container div.right div.HaftaninMekanlari { width:320px;}
+#Container div.right div.HaftaninMekanlari div.top { width:320px; background:url(../v2_img/HaftaninMekanlariTitle.jpg)  no-repeat; height:40px;}
+#Container div.right div.HaftaninMekanlari div.middle { background:url(../v2_img/LightGreenBoxMiddle.jpg) repeat-y; width:295px; padding-left:20px; padding-top:5px;  }
+#Container div.right div.HaftaninMekanlari div.middle div.mekan { width:320px; padding-top:10px; padding-bottom:10px;}
+#Container div.right div.HaftaninMekanlari div.middle div.Information { float:left; width:160px;}
+#Container div.right div.HaftaninMekanlari div.middle div.Information p { font-size:10px; line-height:140%;}
+#Container div.right div.HaftaninMekanlari div.middle div.Picture { float:left; width:140px; margin-left:10px;}
+
+#Container div.right div.HaftaninMekanlari div.bottom { background:url(../v2_img/HaftaninMekanlariBottom.png) no-repeat; width:300px !important; width:310px; height:15px; padding-top:15px; padding-left:15px;}
+
+#Container div.right div.HaftaninMekanlari div.bottom  div.Prev { width:40px; float:left;}
+#Container div.right div.HaftaninMekanlari div.bottom  div.MekanPager { width:180px; float:left; text-align:center; color:#FFFFFF; font-size:11px; }
+#Container div.right div.HaftaninMekanlari div.bottom  div.MekanPager ul { list-style:none; width:150px; text-align:center;}
+#Container div.right div.HaftaninMekanlari div.bottom  div.MekanPager ul li { float:left; width:8px; height:8px; margin-right:3px; background:url(../v2_img/newsLi.png) no-repeat; text-align:center;}
+#Container div.right div.HaftaninMekanlari div.bottom  div.MekanPager ul li .selected {  float:left; width:8px; height:8px; margin-right:3px; background: url(../v2_img/newLiSelected.png) no-repeat; text-align:center;}
+
+
+#Container div.right div.HaftaninMekanlari div.bottom  div.Next { widows:50px; float:left; margin-left:20px; }
+
+div.eventHover {}
+div.eventHover div.top { background:url(../v2_img/modal/top.png) no-repeat; width:377px; height:23px;}
+div.eventHover div.middle { background:url(../v2_img/modal/middle.png) repeat-y; width:322px; padding-left:50px; padding-top:5px; padding-bottom:5px; padding-right:5px;}
+div.eventHover div.bottom { background:url(../v2_img/modal/bottom.png) no-repeat; width:377px; height:30px;}
+div.eventHover div.middle h2 { font-size:18px; color:#0072A5; text-decoration:underline;  font-weight:normal;} 
+div.eventHover div.middle p { line-height:130%; font-size:11px; padding-bottom:10px; }
+div.eventHover div.middle ul.eventMenu { padding:0 0 0 0; margin:0 0 0 0; list-style:none; }
+div.eventHover div.middle ul.eventMenu li {float:left;font-size:10px; }
+div.eventHover div.middle ul.eventMenu .li2 {float:left; padding-left:15px; }
+
+
+div.formElements #submitRegister { background:url(../v2_img/bigKayitOlButton.png) no-repeat; width:201px; height:36px; border:0; cursor:pointer;}
+div.formElements #submitRegister:hover { background:url(../v2_img/bigKayitOlButtonUp.png) no-repeat; width:201px; height:36px; border:0;}
+div.formElements #submitRegister:focus { background:url(../v2_img/bigKayitOlButtonDown.png) no-repeat; width:201px; height:36px; border:0;}
+
+.clearer { clear:both; height:0; }
+
+
+
+
+div#Navigation { 
+    width:960px;
+    height:28px;
+    line-height:25px;
+    background: #4E1808;
+}
+
+div#Navigation li {
+    float: left;
+    /*
+    margin-left: 10px;
+    margin-right: 10px;
+    */
+    list-style-type:none; 
+}
+
+div#Navigation a:link,
+div#Navigation a:visited {
+    display: block;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #FFFFCB;
+    border: 1px solid #4E1808;
+}
+
+div#Navigation a:hover {
+    color: #FFF;
+    background-color: #973919;
+    border: 1px solid #ea6d32;
+}
+
+/* Twitter Feed */
+div#Twitter-Feed {
+	top: 79px;
+	width: 220px;
+	position: absolute;
+	right: -224px;
+}
+
+div#Twitter-Title {
+    width: 220px;
+    height: 70px;
+    text-align: center;
+    background:url(../v2_img/topNav/twitter_up.png) no-repeat;
+}
+
+div#Twitter-Title a:link,
+div#Twitter-Title a:visited {
+    margin-top: 30px;
+    width: 108px;
+    height: 20px;
+    display: inline-block;
+    background: url(../v2_img/topNav/twitter_logo_right.png);
+}
+
+div#Twitter-Nav {
+    text-align: center;
+    background: #4E1808;
+    color: #FFFFCB; 
+    font-weight: bold; 
+    line-height: 28px;
+}
+
+div#Twitter-Content {
+    font-size: 11px; 
+    text-align: left; 
+    padding: 1em 1em 1em 1em;
+    overflow: auto; 
+    height: 622px;
+    background: url(../img/pagebg.jpg) repeat-x scroll 0 0 #F0E69E;
+}
+
+div#Twitter-Content li {
+    padding: 5px 0px 10px 0px;
+    /* border-bottom: 1px solid #AC2020; */
+    background: url(../v2_img/topNav/tw_ln.png) repeat-x bottom;
+    list-style: none;
+}
+
+div#Twitter-Content li span {
+    font-size: 9px;
+    font-weight: bold;
+}
+
+div#Twitter-Footer {
+    text-align: center;
+    background: #602310; 
+    height: 35px;
+}
+
+/* Sanil Request */
+
+a.largeButton {
+    display: inline-block;
+    width: 171px;
+    height: 41px;
+    line-height: 41px;
+    text-indent: 65px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: left;
+}
+
+a.largeButton.green {
+    background: url(../img/largebutton_green.png) no-repeat;
+}
+a.largeButton.green:hover {
+    background-position: 0px -41px;
+    color: #ffeeee;
+}
+a.largeButton.green:active {
+    background-position: 0px -82px;
+    color: #ffeeee;
+}
+
+a.largeButton.red {
+    background: url(../img/largebutton_red.png) no-repeat;
+}
+a.largeButton.red:hover {
+    background-position: 0px -41px;
+    color: #ffeeee;
+}
+a.largeButton.red:active {
+    background-position: 0px -82px;
+    color: #ffeeee;
+}
+
+/* End Sanil Request */
+
+a.facebook-connect-button {
+    display: inline-block;
+    background: url('../img/fb-connect.png') no-repeat;
+    width: 240px;
+    height: 40px;
+}
+
+.facebook-connect-button:hover{
+  background: url('../img/fb-connect-ro.png') no-repeat;
+}

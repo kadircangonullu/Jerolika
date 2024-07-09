@@ -1,0 +1,99 @@
+/**
+
+ Author: Pro Chatrooms
+ Software: Avatar Chat
+ Url: http://www.prochatrooms.com
+ Copyright 2007-2010 All Rights Reserved
+
+ Avatar Chat and all of its source code/files are protected by Copyright Laws. 
+ The license for Avatar Chat permits you to install this software on a single domain only (.com, .co.uk, .org, .net, etc.). 
+ Each additional installation requires an additional software licence, please contact us for more information.
+ You may NOT remove the copyright information and credits for Avatar Chat unless you have been granted permission. 
+ Avatar Chat is NOT free software - For more details http://www.prochatrooms.com/software_licence.php
+
+**/
+
+
+/*
+**
+** Microsoft Browser - IE7
+** Layout BUG Fixes
+**
+*/
+
+/* chat options */
+
+.chatoptions 
+{
+	width:300px; 
+	bottom:224px; 
+}
+
+/* private chat tabs */
+
+.privatetab 
+{
+	width:auto; 
+}
+
+/* private chat tabs (new message) */
+
+.newprivatetab 
+{
+	width:auto; 
+}
+
+/* logout button */
+
+.logoutButton 
+{
+	height: 64px; 
+	width: 56px;
+	padding: 0px; 
+	padding-top:12px; 
+	text-align: center;
+}
+
+/* shop button */
+
+.shopButton 
+{
+	height: 64px; 
+	width: 56px;
+	padding: 0px; 
+	padding-top:12px; 
+	text-align: center;
+}
+
+/* play games button */
+
+.playgamesButton 
+{
+	height: 64px; 
+	width: 56px;
+	padding: 0px; 
+	padding-top:8px; 
+	text-align: center;
+}
+
+/* map button */
+
+.mapButton 
+{
+	height: 64px; 
+	width: 56px;
+	padding: 0px;
+	padding-top:12px; 
+	text-align: center;
+}
+
+/* avatar button */
+
+.avatarButton 
+{
+	height: 64px; 
+	width: 56px;
+	padding: 0px; 
+	padding-top:2px;
+	padding-left:12px;
+}

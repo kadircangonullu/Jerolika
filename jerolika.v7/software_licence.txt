@@ -1,0 +1,104 @@
+Developers - Pro Chat Rooms
+Software - Avatar Chat
+Website: http://www.prochatrooms.com 
+(c)2007/2011
+
+End User Software Agreement
+
+/** START OF AGREEMENT **/
+
+By purchasing Pro Chat Rooms software you have hereby agreed to abide by the following agreement.
+
+SINGLE IDENTITY COMPANY/ORGANIZATIONAL/PERSONAL SOFTWARE USE LICENSE AGREEMENT
+
+1. GENERAL SOFTWARE LICENSE
+
+A. General License Grant
+
+In consideration of payment of the license fee, which is part of the price of the Software, Pro Chat Rooms grants to You the nonexclusive right to use the software for company/organizational/personal use.  
+Pro Chat Rooms grants you the choice of modifying the Software source code to better fit your company's needs.  
+You may install any/all Software packages under one domain (additional software purchases are required for multiple installations on more than one domain name) that is owned, operated and is controlled by your REGISTERED LICENSED company, organization or personal identity.  
+Pro Chat Rooms grants you the right to create multiple instances of the software with the restriction of each copy branded with your REGISTERED LICENSED company, organization or personal identity AND the Software is deployed on system(s) owned by or rented by REGISTERED LICENSED company, organization or personal identity of this License Agreement. 
+All instances of the software MUST be branded with your REGISTERED LICENSED company, organization or personal identity. BRANDING IDENTIFICATION INCLUDES BUT NOT LIMITED TO LOGO, URL LINKS, and POWERED BY MARK.  
+You are bound to this Agreement during Your entire possession time span of this Software, in its original or altered state. 
+Pro Chat Rooms reserves the rights to suspend, revoke or terminate your license to use the software if these terms are violated.   
+See Section 5 of this License Agreement for termination procedures.
+
+B. Copyright
+
+The Software (including but not limited to any images, photographs, animations, video, audio, music, text, and "applets" incorporated into the Software) is owned by Pro Chat Rooms or its suppliers and is protected by United States copyright laws and international treaty provisions.  Therefore, You must treat the Software like any other copyrighted material.  
+You may not copy the Software for DISTRIBUTION or RESELL in any way. 
+You may not copy any written materials accompanying the Software without express written authorization from Pro Chat Rooms  All copies of the Software, in its original or altered state, MUST be in the possession of the by REGISTERED LICENSED company, organization or personal identity of the Software.  
+Proofs of infringement of copyright violations include but not limited to similar code style and structures, similar layout and design, similar database design, and containing parts of the original Software source code.  
+
+C. Other Restrictions
+
+Each Software package purchased under this Agreement is licensed as a single product. Its component parts CAN be separated, but from there after, Pro Chat Rooms will no longer provide support or upgrades.  
+You may not distribute copies of the Software or any accompanying written materials to others, in its original or altered state.  
+All instances of the software must be branded with your REGISTERED LICENSED company, organization or personal identity and all instances of the Software MUST reside on the server(s) you own or lease.  
+BRANDING IDENTIFICATION INCLUDES BUT NOT LIMITED TO LOGO, URL LINKS, and POWERED BY MARK.  
+YOU MAY NOT DISTRIBUTE OR RESELL THE SOFTWARE IN ITS ORIGINAL OR ALTERED STATE.  
+YOU MAY NOT PROVIDE OR RENT THE SOFTWARE USE TO OTHERS - OTHERS CAN BE DEFINED AS PARTIES THAT DO NOT FALL UNDER THE STAFF BASE OR ARE NOT DIRECTLY RELATED TO THE REGISTERED LICENSED company, organization or personal identity of this License Agreement.  
+If any portion of the current Pro Chat Rooms's software source is merged, inserted, copied, or ported to your previous Pro Chat Rooms's software source, THIS CURRENT LICENSE AGREEMENT WITH Pro Chat Rooms WILL IMMEDIATELY GO IN EFFECT AND NULLIFY YOUR PREVIOUS Pro Chat RoomsS LICENSE AGREEMENT.
+
+D. Trademarks
+
+The trademarks, logos and service marks ("Marks") displayed on this Site; Software and any accompanying written materials are the property of Pro Chat Rooms or other third parties. 
+You are not permitted to use the Marks without the prior written consent of Pro Chat Rooms or such third party that may own the Marks.
+
+E. User Infringement Liability
+
+You may be held legally responsible for any infringement that is caused or encouraged by your failure to comply with the licensing provisions of this Agreement.  
+Upon purchase of the Pro Chat Rooms, legal actions from Pro Chat Rooms can be directed towards you if you do not comply with the license agreement.
+
+2. DISCLAIMERS AND WARRANTY INFORMATION
+
+NO WARRANTY
+
+UNLESS EXPRESSLY PROVIDED OTHERWISE IN A SEPARATE AGREEMENT BETWEEN YOU AND Pro Chat Rooms, ALL INFORMATION AND SOFTWARE ON AND FROM THIS SITE ARE PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT.  Pro Chat Rooms ASSUMES NO RESPONSIBILITY FOR ERRORS OR OMISSIONS IN THE INFORMATION OR SOFTWARE OR OTHER DOCUMENTS AT, REFERENCED BY, OR LINKED TO THIS SITE. YOU ASSUME THE ENTIRE RISK FOR THE RESULTS AND PERFORMANCE OF THE SOFTWARE.
+
+ANY REFERENCES TO CORPORATIONS, THEIR SERVICES AND PRODUCTS, ARE PROVIDED "AS IS" WITHOUT WARRANTY OF ANY KIND, EITHER EXPRESS OR IMPLIED INCLUDING THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. 
+
+NO LIABILITY FOR DAMAGES
+
+IN NO EVENT SHALL Pro Chat Rooms OR ANYONE ELSE INVOLVED IN THE CREATION, PRODUCTION OR DELIVERY OF THE SOFTWARE OR ANY ACCOMPANYING WRITTEN MATERIALS BE LIABLE FOR ANY DAMAGES WHATSOEVER, INCLUDING WITHOUT LIMITATION ANY SPECIAL, INCIDENTAL, INDIRECT OR CONSEQUENTIAL DAMAGES OF ANY KIND, OR ANY DAMAGES WHATSOEVER RESULTING FROM LOSS OF USE, LOSS OF DATA, LOSS OF OTHER MATERIALS, LOSS OF PROFITS, BUSINESS OR OTHER WORK INTERRUPTION, OR ANY OTHER PECUNIARY LOSSES, WHETHER OR NOT ADVISED OF THE POSSIBILITY OF SUCH DAMAGE, AND BASED ON ANY THEORY OF LIABILITY, ARISING OUT OF OR IN CONNECTION WITH THE USE OF OR INABILITY TO USE INFORMATION, SOFTWARE OR OTHER MATERIALS OBTAINED FROM USING THIS SOFTWARE OR FROM THE PERFORMANCE OR LACK OF PERFORMANCE OF THIS SOFTWARE.
+
+NO LIABILITY FOR ERRORS OR OBLIGATION TO UPDATE
+
+Pro Chat Rooms COULD INCLUDE TECHNICAL OR OTHER INACCURACIES OR TYPOGRAPHICAL ERRORS.  CHANGES ARE PERIODICALLY ADDED TO THE INFORMATION HEREIN; THESE CHANGES WILL BE INCORPORATED IN NEW OF THE SOFTWARE AT Pro Chat RoomsS SOLE DISCRETION.  Pro Chat Rooms MAY MAKE IMPROVEMENTS AND/OR CHANGES IN THE SOFTWARE AND ANY OTHER PRODUCT(S) OR PROGRAM(S) DESCRIBED ON OUR SITE AT ANY TIME.  Pro Chat Rooms HAS NO OBLIGATION TO NOTIFY YOU OF ANY CHANGES OF THE SOFTWARE OR ANY OTHER PRODUCTS OR PROGRAMS.
+
+3. CUSTOMER REMEDIES.
+
+In no event shall Pro Chat Rooms's total liability to you for all damages, losses, and causes of action arising from or connected in anyway with this Agreement (including without limitation liability in contract, tort or under any other legal theory) ever exceed the INITIAL amount paid by You for the Software. INITIAL amount is defined as the first payment to purchase the software and DOES NOT include other fees incurred there after.  This shall constitute Your sole and exclusive remedy.
+
+4. FEES AND PAYMENT
+
+A. Fees and Payment Obligation. 
+
+Please carefully review and consider the price list before purchasing any products covered by this Agreement.  Pro Chat Rooms reserves the right to change our prices at any time. We will post all price changes on our Site. Your acceptance of this Agreement indicates consent to the published prices.  By accepting this Agreement, You consent to pay all fees and costs that You incur. Failure to pay timely and in full constitutes a material breach of this Agreement.
+
+B. Method of Payment.
+
+a. Payment
+
+Pro Chat Rooms requires a credit card transaction, wire transfer, or a mailed check prior to obtaining the software.  Pro Chat Rooms will allow You to download or issues a release of purchased Software 1-5 business days upon receiving authorization from Your account holder.
+
+b. Refunds
+
+Refunds are based on Software failure, NOT server issues or lack of features.  Refunds CANNOT be issued in cases where your server does not have MySQL or PHP properly installed.  Refunds are provided ONLY AFTER our tech has assisted in your installation and the Software fails to function fully.  Pro Chat Rooms will determine if a refund is necessary based on individual situations.  If refund is provided, You must follow the termination guidelines detailed on Section 5 of this License Agreement.  REFUNDS ARE NOT AVAILABLE AFTER 14 DAYS FROM PURCHASE DATE.
+
+REFUNDS ARE NOT PROVIDED if a client has NOT fully evaluated the Software demo or the Software trial prior to purchase.
+
+5. TERMINATION.
+
+This Agreement is effective IMMEDIATELY upon Your Software download and Software transfer from Pro Chat Rooms's servers to your computer.  Proof of download will be based on Pro Chat Rooms's client status using OUR records and logs.  Unless sooner terminated by Pro Chat Rooms, any license granted by this Agreement terminates in accordance with the method and timeframes specified in Section 1-A of this Agreement.  
+Without prejudice to any other rights, Pro Chat Rooms may suspend, revoke, or terminate this Agreement if You fail to comply with any of its provisions.  In such event, You shall delete all copies and instances of Pro Chat Rooms's Software(s) from your possession within 3 days of Pro Chat Rooms's License Agreement termination notice.  
+IF YOU FAIL TO COMPLY WITH OUR TERMINATION PROCEDURE, LEGAL ACTIONS WILL BE TAKEN WITHIN 24 HOURS OF THE GIVEN 3 DAYS GRACE PERIOD OF COMPLIANCE.
+
+6. LAW
+
+This License Agreement shall be construed, interpreted and governed by the laws of the State of New York without regard to conflicts of laws provisions thereof.  
+The exclusive forum for any disputes arising out of or relating to this License Agreement shall be an appropriate federal or state court sitting in New York City, New York, USA.  This License Agreement shall constitute the entire Agreement between the parties hereto.  Pro Chat Rooms has the right to modify this agreement with each new release of the Software.  You have the right to waiver the modifications and opt to abide by the previous Agreement and chooses not to accept the new Software release and the modified License Agreement. If a court of competent jurisdiction finds any part of this License Agreement invalid or unenforceable, the remainder of this License Agreement shall be interpreted so as to reasonably affect the intention of the parties.
+
+
+/** END OF AGREEMENT **/

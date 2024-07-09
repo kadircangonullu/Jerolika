@@ -1,0 +1,51 @@
+/**
+
+ Author: Pro Chatrooms
+ Software: Avatar Chat
+ Url: http://www.prochatrooms.com
+ Copyright 2007-2010 All Rights Reserved
+
+ Avatar Chat and all of its source code/files are protected by Copyright Laws. 
+ The license for Avatar Chat permits you to install this software on a single domain only (.com, .co.uk, .org, .net, etc.). 
+ Each additional installation requires an additional software licence, please contact us for more information.
+ You may NOT remove the copyright information and credits for Avatar Chat unless you have been granted permission. 
+ Avatar Chat is NOT free software - For more details http://www.prochatrooms.com/software_licence.php
+
+**/
+
+
+/*
+
+CSS3 rounded corners
+not supported by all browsers
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+*/
+
+.body 
+{
+	color: #CCCCCC;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+	background-color: #000000;
+	background-image: url('../../images/logo.jpg');
+	background-repeat: repeat;
+}
+
+.table 
+{
+	color: #CCCCCC;
+	font-family: Verdana, Arial;
+	font-size: 12px;
+	font-style: normal;
+	background-color: #333333;
+}
+
+
+a:link {text-decoration: none; color: #CCCCCC;}
+a:visited {text-decoration: none; color: #CCCCCC;}
+a:active {text-decoration: none; color: #CCCCCC;}
+a:hover {text-decoration: underline; color: #CCCCCC;}
